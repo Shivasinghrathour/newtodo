@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:newtodo/pages/splash_Screen.dart';
+
+import 'package:newtodo/config/theme.dart';
+import 'package:newtodo/pages/splash_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,10 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "To Do Application",
+      theme: lightTheme,
       debugShowCheckedModeBanner: false,
-      home: Splash_Screen(),
+      home: const SplashScreen(),
     );
   }
 }
