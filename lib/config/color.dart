@@ -13,3 +13,4 @@ const deepOrange = Color(0xffFF8A00);
 const lightOrange = Color(0xffFFE091);
 const yellowColor = Color(0xffFECE2F);
 const iconTextColor = Color(0xff097992);
+const secondButtonColor = Color(0xff000000);

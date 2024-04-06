@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'package:newtodo/config/theme.dart';
 import 'package:newtodo/pages/splash_screen.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: "To Do Application",
       theme: lightTheme,
       debugShowCheckedModeBanner: false,
