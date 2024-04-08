@@ -67,10 +67,10 @@ class WelcomeScreen extends StatelessWidget {
                 },
               ),
               SecondButton(
-                btnname: 'Create Accont',
+                btnname: 'Create Account',
                 onPress: () {
                   Get.to(
-                    SignUpPage(),
+                    const SignUpPage(),
                   );
                 },
               )
